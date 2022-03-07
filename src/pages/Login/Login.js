@@ -19,9 +19,7 @@ return(
             <button type="button" class="button button-primary login-btn">Login</button>
             <a href="" alt="Forget password button" class="button-link">Forgot your password?</a>
             <hr class="separator" />
-            <button type="button" class="button button-secondary register-btn">Create
-                a new
-                account</button>
+            <button type="button" class="button button-secondary register-btn">Create a new account</button>
         </div>
     </div>
 </div>
