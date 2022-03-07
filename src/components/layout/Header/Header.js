@@ -12,19 +12,19 @@ function Header(){
             <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
                 <ul className="navbar-nav">
                     <li className="nav-item active">
-                        <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
+                        <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a> {/* Should use "Link" component from react-router-dom */}
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/shop">Shop</a>
+                        <a className="nav-link" href="/shop">Shop</a>  {/* Should use "Link" component from react-router-dom */}
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/about">About</a>
+                        <a className="nav-link" href="/about">About</a> {/* Should use "Link" component from react-router-dom */}
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/cart">Cart(0)</a>
+                        <a className="nav-link" href="/cart">Cart(0)</a> {/* Should use "Link" component from react-router-dom */}
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Sign in</a>
+                        <a className="nav-link" href="#">Sign in</a> {/* Should use "Link" component from react-router-dom */}
                     </li>
 
                 </ul>
