@@ -43,6 +43,9 @@ export default class Home extends React.Component {
   };
 
   componentDidMount() {
+    // Use Promise.all() to group all api request into 1 single request
+    // Reference: https://stackoverflow.com/questions/52669596/promise-all-with-axios
+
     axios.get('http://localhost:8000/api/getOnSaleBooks').then((result) => {
       // console.log(result.data);
       const onSaleBooks = result.data;
