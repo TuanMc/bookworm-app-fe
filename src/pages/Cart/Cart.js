@@ -24,7 +24,7 @@ function Cart(){
                 <tr>
                   <td>
                     <div className="product-column">
-                      <img src="./assets//images/books.jpg" alt="Books" />
+                      <img src="./assets/images/books.jpg" alt="Books" />
                       <div className="pc-infor">
                         <p className="font-20px">Book Title</p>
                         <p>Author Name</p>
@@ -53,7 +53,7 @@ function Cart(){
                 <tr>
                   <td>
                     <div className="product-column">
-                      <img src="./assets//images/books.jpg" alt="Books" />
+                      <img src="./assets/images/books.jpg" alt="Books" />
                       <div className="pc-infor">
                         <p className="font-20px">Book Title</p>
                         <p>Author Name</p>
